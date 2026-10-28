@@ -1,0 +1,37 @@
+{
+  "rows": 284807,
+  "frauds": 492,
+  "fraud_rate_percent": 0.1727485630620034,
+  "train_rows": 170884,
+  "validation_rows": 56961,
+  "test_rows": 56962,
+  "best_model_by_test_average_precision": "Random Forest",
+  "test_results": [
+    {
+      "model": "Random Forest",
+      "validation_threshold": 0.26631704375776366,
+      "precision": 0.890625,
+      "recall": 0.76,
+      "f1": 0.8201438848920863,
+      "average_precision_PR_AUC": 0.8193184539141494,
+      "roc_auc": 0.9489978378188338,
+      "TP": 57,
+      "FP": 7,
+      "FN": 18,
+      "TN": 56880
+    },
+    {
+      "model": "Logistic Regression",
+      "validation_threshold": 0.999976564991413,
+      "precision": 0.9259259259259259,
+      "recall": 0.6666666666666666,
+      "f1": 0.7751937984496124,
+      "average_precision_PR_AUC": 0.7437041109371159,
+      "roc_auc": 0.9820163950756178,
+      "TP": 50,
+      "FP": 4,
+      "FN": 25,
+      "TN": 56883
+    }
+  ]
+}
